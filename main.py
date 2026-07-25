@@ -61,7 +61,7 @@ if len(job_description.strip())<10:
     raise ValueError("no job description")
 
 from pypdf import PdfReader
-reader=PdfReader("C://Users//Arpita Verma//Downloads//resumesssss//mlresume.pdf")
+reader=PdfReader("resume.pdf")
 # print(len(reader.pages))
 text=""
 # page=reader.pages[0]
